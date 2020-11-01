@@ -1,5 +1,5 @@
 # The Docker image to run your workspace in. Defaults to gitpod/workspace-full
-image: centos:8.2.2004
+image: stretch-slim
 # Command to start on workspace startup (optional)
 tasks: []
   #- init: yarn install
