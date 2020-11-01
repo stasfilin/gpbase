@@ -1,5 +1,5 @@
 # The Docker image to run your workspace in. Defaults to gitpod/workspace-full
-image: eu.gcr.io/sab-lab-sbx-01-3590/y:p9cs17
+image: eu.gcr.io/sab-lab-sbx-01-3590/y:p9cs18
 # Command to start on workspace startup (optional)
 tasks: []
   #- init: yarn install
