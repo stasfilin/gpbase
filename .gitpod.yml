@@ -8,3 +8,10 @@ tasks: []
 ports: []
   #- port: 8000
   #  onOpen: open-preview
+
+vscode:
+  extensions:
+    - hashicorp.terraform@2.2.3:bBQoMVR7TCwCZWURotrh3w==
+    - jebbs.plantuml@2.13.12:q7DiD6H5NTesaWYIXmeMMQ==
+    - BazelBuild.vscode-bazel@0.4.0:CNqPe08EnThWfsQXBuinsQ==
+    - golang.go@0.17.2:WOyuUIRDocFQQa791wKwRQ==
