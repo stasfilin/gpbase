@@ -11,10 +11,7 @@ components:
   - mountSources: true
     command:
       - tail
-    args:
-      - '-f'
-      - /dev/null
     memoryLimit: 512Mi
     type: dockerimage
-    image: 'eu.gcr.io/sab-lab-sbx-01-3590/y:p9cs19'
-    alias: python
+    image: 'eu.gcr.io/sab-lab-sbx-01-3590/s2:10'
+    alias: bash
