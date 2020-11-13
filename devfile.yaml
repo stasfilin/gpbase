@@ -8,9 +8,11 @@ projects:
       type: github
       startPoint: master
 components:
+  - type: chePlugin
+    id: ms-python/python/latest
+    memoryLimit: 512Mi
   - mountSources: true
-    command:
-      - tail
+    command: ['sleep', 'infinity']
     memoryLimit: 512Mi
     type: dockerimage
     image: 'eu.gcr.io/sab-lab-sbx-01-3590/s2:10'
